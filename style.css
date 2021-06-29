@@ -79,12 +79,18 @@ img {
     padding: 10px 0px;
   }
 
-  img {
-    margin-top: 20px;
-    height: 150px;
+  body {
+    margin: 0 auto;
+    font-size: 12px;
   }
 
-  h3 {
+  img {
+    height: 100px;
+  }
+
+  h1,
+  h3,
+  hr {
     margin: 0;
   }
 
@@ -100,7 +106,15 @@ img {
     width: 100%;
   }
 
+  #lezioni .row img {
+    margin-top: 20px;
+  }
+
   /* Steps */
+  #steps {
+    background-color: white;
+  }
+
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right {
@@ -117,5 +131,6 @@ img {
 
   #why .row img {
     transform: scale(0.7);
+    margin-bottom: -25px;
   }
 }
