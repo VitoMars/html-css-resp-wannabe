@@ -71,3 +71,21 @@ img {
 .clear {
   clear: both;
 }
+
+@media (max-width: 419px) {
+
+  .row {
+    width: 100%;
+  }
+
+  #lezioni .row{
+    background-color: #f2f2cd;
+  }
+
+  #lezioni .row>.right,
+  #lezioni .row>.left{
+    float: none;
+    width: 100%;
+  }
+
+}
